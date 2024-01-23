@@ -10,13 +10,14 @@ echo "Cloning with depth 1"
 git clone https://github.com/kartik-commits/vendor_xiaomi_redwood.git --depth 1 vendor/xiaomi/redwood
 git clone https://github.com/kartik-commits/vendor_xiaomi_sm7325-common.git --depth 1 vendor/xiaomi/sm7325-common
 git clone https://github.com/kartik-commits/kernel_xiaomi_sm7325.git --depth 1 kernel/xiaomi/sm7325
+git clone https://github.com/tiann/KernelSU.git kernel/xiaomi/sm7325/KernelSU
 fi
 if [ "$clone_depth" == "no" ]; then
 git clone https://github.com/kartik-commits/vendor_xiaomi_redwood.git vendor/xiaomi/redwood
 git clone https://github.com/kartik-commits/vendor_xiaomi_sm7325-common.git vendor/xiaomi/sm7325-common
 git clone https://github.com/kartik-commits/kernel_xiaomi_sm7325.git kernel/xiaomi/sm7325
+git clone https://github.com/tiann/KernelSU.git kernel/xiaomi/sm7325/KernelSU
 fi
 
-git clone https://github.com/tiann/KernelSU.git kernel/xiaomi/sm7325/KernelSU
 git clone https://github.com/PixelExperience/hardware_xiaomi.git hardware/xiaomi
 git clone https://gitlab.com/kattya9512/redwood-firmware.git vendor/xiaomi/redwood-firmware
